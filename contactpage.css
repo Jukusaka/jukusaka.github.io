@@ -1,0 +1,97 @@
+body {
+    background-color: #262626;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* TOP */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 0.8rem;
+    transition: color 0.25s;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.5rem;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+.homebutton, .aboutbutton, .hobbiesbutton, .projectsbutton, .contactbutton {
+    margin-left: 1.5rem;
+}
+
+.homebutton a:hover, 
+.aboutbutton a:hover, 
+.projectsbutton a:hover, 
+.hobbiesbutton a:hover {
+    color: #631FDB;
+}
+
+.contactbutton a {
+    color: #631FDB;
+}
+
+.contactbutton a:hover {
+    color: white;
+}
+
+/* CONTENT */
+
+.gap {
+    height: 8rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    letter-spacing: 0.25rem;
+    align-items: flex-end;
+    margin-top: 10rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+#github, #gmail, #phone {
+    height: 5rem;
+}
+
+.profilepic {
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 4rem;
+}
+
+#pfp {
+    width: 25rem;
+    border-radius: 50%;
+}

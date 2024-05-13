@@ -1,0 +1,115 @@
+body {
+    background-color: #262626;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* TOP */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 0.8rem;
+    transition: color 0.25s;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.5rem;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+.homebutton, .aboutbutton, .hobbiesbutton, .projectsbutton, .contactbutton {
+    margin-left: 1.5rem;
+}
+
+.homebutton a:hover, 
+.aboutbutton a:hover, 
+.projectsbutton a:hover, 
+.contactbutton a:hover {
+    color: #631FDB;
+}
+
+.hobbiesbutton a {
+    color: #631FDB;
+}
+
+.hobbiesbutton a:hover {
+    color: white;
+}
+
+/* CONTENT */
+
+.gap {
+    height: 8rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.hobbies {
+    display: flex;
+    padding-left: 4rem;
+    flex-direction: column;
+    width: 100%;
+    letter-spacing: 0.25rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+}
+
+.text {
+    padding-left: 2rem;
+}
+
+#simracing, #programming, #music, #games, #pixelart, #beatbox {
+    height: 5rem;
+}
+
+.programming {
+    margin-left: 5rem;
+}
+.music {
+    margin-left: 10rem;
+}
+.games {
+    margin-left: 15rem;
+}
+.pixelart {
+    margin-left: 20rem;
+}
+.beatbox {
+    margin-left: 25rem;
+}
+
+.profilepic {
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 4rem;
+}
+
+#pfp {
+    width: 25rem;
+    border-radius: 50%;
+}

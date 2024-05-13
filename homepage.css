@@ -1,0 +1,90 @@
+body {
+    background-color: #262626;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* TOP */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 0.8rem;
+    transition: color 0.25s;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.5rem;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+.homebutton, .aboutbutton, .hobbiesbutton, .projectsbutton, .contactbutton {
+    margin-left: 1.5rem;
+}
+
+.hobbiesbutton a:hover, 
+.aboutbutton a:hover, 
+.projectsbutton a:hover, 
+.contactbutton a:hover {
+    color: #631FDB;
+}
+
+.homebutton a {
+    color: #631FDB;
+}
+
+.homebutton a:hover {
+    color: white;
+}
+
+/* CONTENT */
+
+.gap {
+    height: 8rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.profilepic {
+    display: flex;
+    justify-content:flex-end;
+    padding-top: 9rem;
+}
+
+#pfp {
+    width: 25rem;
+    border-radius: 50%;
+}
